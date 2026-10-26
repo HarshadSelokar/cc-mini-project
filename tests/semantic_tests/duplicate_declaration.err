@@ -1,0 +1,2 @@
+Semantic Error [Line 3, Col 1]
+duplicate declaration: variable 'x' is already declared in this scope (at line 1)

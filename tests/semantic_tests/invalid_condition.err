@@ -1,0 +1,4 @@
+Semantic Error [Line 2, Col 5]
+condition of 'if' must be of type 'bool'
+Semantic Error [Line 5, Col 10]
+condition of 'while' must be of type 'bool'

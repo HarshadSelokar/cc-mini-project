@@ -1,0 +1,4 @@
+Parser Error [Line 1, Col 10]
+expected ';' after '1'
+Parser Error [Line 2, Col 5]
+expected identifier

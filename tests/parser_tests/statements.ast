@@ -1,0 +1,48 @@
+Program
+|-- VarDecl 'x'
+|   `-- IntegerLiteral 3
+|-- Assign 'x'
+|   `-- BinaryExpr '+'
+|       |-- Variable 'x'
+|       `-- IntegerLiteral 1
+|-- Print
+|   `-- Variable 'x'
+|-- If
+|   |-- Condition
+|   |   `-- BinaryExpr '>'
+|   |       |-- Variable 'x'
+|   |       `-- IntegerLiteral 2
+|   |-- Then
+|   |   `-- Block
+|   |       `-- Print
+|   |           `-- IntegerLiteral 1
+|   `-- Else
+|       `-- If
+|           |-- Condition
+|           |   `-- BinaryExpr '>'
+|           |       |-- Variable 'x'
+|           |       `-- IntegerLiteral 1
+|           |-- Then
+|           |   `-- Block
+|           |       `-- Print
+|           |           `-- IntegerLiteral 2
+|           `-- Else
+|               `-- Block
+|                   `-- Print
+|                       `-- IntegerLiteral 3
+|-- While
+|   |-- Condition
+|   |   `-- BinaryExpr '>'
+|   |       |-- Variable 'x'
+|   |       `-- IntegerLiteral 0
+|   `-- Body
+|       `-- Block
+|           `-- Assign 'x'
+|               `-- BinaryExpr '-'
+|                   |-- Variable 'x'
+|                   `-- IntegerLiteral 1
+`-- Block
+    |-- VarDecl 'y'
+    |   `-- Variable 'x'
+    `-- Print
+        `-- Variable 'y'

@@ -1,0 +1,17 @@
+LINE:COL  TOKEN         LEXEME
+------------------------------------
+2:1       LET           let
+2:7       IDENTIFIER    x
+2:8       ASSIGN        =
+2:9       NUMBER        1
+2:10      SEMICOLON     ;
+5:1       PRINT         print
+5:6       LPAREN        (
+5:8       IDENTIFIER    x
+5:10      RPAREN        )
+5:11      SEMICOLON     ;
+6:1       EOF           
+Token stream (11 tokens):
+  LET IDENTIFIER ASSIGN NUMBER SEMICOLON
+  PRINT LPAREN IDENTIFIER RPAREN SEMICOLON
+  EOF

@@ -1,0 +1,26 @@
+Program
+|-- VarDecl 'a'
+|   `-- IntegerLiteral 20
+|-- VarDecl 'b'
+|   `-- BinaryExpr '-'
+|       |-- BinaryExpr '-'
+|       |   |-- Variable 'a'
+|       |   `-- IntegerLiteral 5
+|       `-- IntegerLiteral 3
+|-- VarDecl 'c'
+|   `-- BinaryExpr '/'
+|       |-- BinaryExpr '/'
+|       |   |-- Variable 'a'
+|       |   `-- IntegerLiteral 2
+|       `-- IntegerLiteral 5
+|-- VarDecl 'd'
+|   `-- BinaryExpr '||'
+|       |-- BooleanLiteral true
+|       `-- BinaryExpr '&&'
+|           |-- BooleanLiteral false
+|           `-- BooleanLiteral false
+`-- VarDecl 'e'
+    `-- BinaryExpr '=='
+        |-- UnaryExpr '!'
+        |   `-- BooleanLiteral true
+        `-- BooleanLiteral false

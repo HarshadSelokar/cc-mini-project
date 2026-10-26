@@ -1,0 +1,3 @@
+Semantic Error [Line 2, Col 1]
+variable 'count' is not declared
+No LLVM IR was generated

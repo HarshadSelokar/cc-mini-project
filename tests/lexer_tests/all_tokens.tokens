@@ -1,0 +1,46 @@
+LINE:COL  TOKEN         LEXEME
+------------------------------------
+1:1       LET           let
+1:5       IF            if
+1:8       ELSE          else
+1:13      WHILE         while
+1:19      PRINT         print
+1:25      TRUE          true
+1:30      FALSE         false
+2:1       IDENTIFIER    x
+2:3       IDENTIFIER    counter
+2:11      IDENTIFIER    total
+2:17      IDENTIFIER    myVariable
+2:28      IDENTIFIER    _tmp1
+3:1       NUMBER        0
+3:3       NUMBER        10
+3:6       NUMBER        100
+3:10      NUMBER        999
+4:1       PLUS          +
+4:3       MINUS         -
+4:5       MUL           *
+4:7       DIV           /
+4:9       MOD           %
+4:11      ASSIGN        =
+4:13      EQ            ==
+4:16      NE            !=
+4:19      LT            <
+4:21      GT            >
+4:23      LE            <=
+4:26      GE            >=
+4:29      AND           &&
+4:32      OR            ||
+4:35      NOT           !
+5:1       LPAREN        (
+5:3       RPAREN        )
+5:5       LBRACE        {
+5:7       RBRACE        }
+5:9       SEMICOLON     ;
+6:1       EOF           
+Token stream (37 tokens):
+  LET IF ELSE WHILE PRINT TRUE FALSE
+  IDENTIFIER IDENTIFIER IDENTIFIER IDENTIFIER IDENTIFIER
+  NUMBER NUMBER NUMBER NUMBER
+  PLUS MINUS MUL DIV MOD ASSIGN EQ NE LT GT LE GE AND OR NOT
+  LPAREN RPAREN LBRACE RBRACE SEMICOLON
+  EOF

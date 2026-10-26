@@ -1,0 +1,26 @@
+LINE:COL  TOKEN         LEXEME
+------------------------------------
+1:1       IDENTIFIER    a
+1:2       LE            <=
+1:4       IDENTIFIER    b
+1:6       IDENTIFIER    a
+1:7       LT            <
+1:8       IDENTIFIER    b
+1:10      IDENTIFIER    a
+1:11      EQ            ==
+1:13      IDENTIFIER    b
+1:15      IDENTIFIER    a
+1:16      ASSIGN        =
+1:17      IDENTIFIER    b
+1:19      NOT           !
+1:20      IDENTIFIER    a
+1:22      IDENTIFIER    a
+1:23      NE            !=
+1:25      IDENTIFIER    b
+1:27      IDENTIFIER    letter
+1:34      IDENTIFIER    iffy
+1:39      IDENTIFIER    whilex
+2:1       EOF           
+Token stream (21 tokens):
+  IDENTIFIER LE IDENTIFIER IDENTIFIER LT IDENTIFIER IDENTIFIER EQ IDENTIFIER IDENTIFIER ASSIGN IDENTIFIER NOT IDENTIFIER IDENTIFIER NE IDENTIFIER IDENTIFIER IDENTIFIER IDENTIFIER
+  EOF

@@ -1,0 +1,8 @@
+let x = 50;
+let y = 2;
+let z = -10;
+let b = true;
+print(50);
+print(2);
+print(-10);
+print(true);

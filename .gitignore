@@ -1,0 +1,8 @@
+build/
+build-make/
+bin/
+output/*
+!output/.gitkeep
+output.ll
+output.exe
+*.exe

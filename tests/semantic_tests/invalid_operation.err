@@ -1,0 +1,5 @@
+invalid operand to unary '-'
+invalid operand to unary '!'
+invalid operands to '<'
+cannot compare 'bool' with 'int'
+4 semantic error(s)
